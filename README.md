@@ -16,7 +16,7 @@ To install the required dependencies, use the following command:
 ## Setup Instructions
 
 1. Clone this repository or download the Projects folder.
-   For cloning use the command below:
+   For cloning use the repository below:
 
    - https://github.com/DeenSooky/XML_Challenge.git
 
