@@ -9,10 +9,6 @@ This Python script validates XML files against the Bank of England's FSA029 Bala
 - Python 3.x
 - `lxml` library for XML parsing and schema validation
 
-To install the required dependencies, use the following command:
-
-- pip install -r requirements.txt
-
 ## Setup Instructions
 
 1. Clone this repository or download the Projects folder.
@@ -29,7 +25,7 @@ To install the required dependencies, use the following command:
    - python -m venv .venv
    - .venv\Scripts\activate # On Windows
 
-4. Install the dependencies:
+4. Install the dependencies (`lxml`):
    - pip install -r requirements.txt
 
 ## How to Run the Script
