@@ -27,7 +27,7 @@ To install the required dependencies, use the following command:
 3. Create and activate a virtual environment:
 
    - python -m venv .venv
-   - .\.venv\Scripts\activate # On Windows
+   - .venv\Scripts\activate # On Windows
 
 4. Install the dependencies:
    - pip install -r requirements.txt
