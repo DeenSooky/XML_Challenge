@@ -30,7 +30,7 @@ To install the required dependencies, use the following command:
    - .\.venv\Scripts\activate # On Windows
 
 4. Install the dependencies:
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
 
 ## How to Run the Script
 
@@ -40,10 +40,12 @@ To install the required dependencies, use the following command:
   - The path to the XML file you want to validate.
 
   Template example:
-  python script.py <schema_folder_path> <xml_data_path>
+
+  - python script.py <schema_folder_path> <xml_data_path>
 
   Specific example:
-  python script.py Folder1\Folder2\Projects\project_root\schemas Folder1\Folder2\Projects\project_root\data\FSA029-v4-Samples\FSA029-Sample-Full.xml
+
+  - python script.py Folder1\Folder2\Projects\project_root\schemas Folder1\Folder2\Projects\project_root\data\FSA029-v4-Samples\FSA029-Sample-Full.xml
 
 ## Code Explanation
 
