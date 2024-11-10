@@ -61,11 +61,11 @@ To install the required dependencies, use the following command:
 
 ## Reflections
 
-- **(a) What causes FSA029-Sample-Full.xml to fail schema validation?**
+- **(a) What causes FSA029-Sample-Full.xml to fail schema validation? Why do you think the regulator has included a valid file in their examples?**
 
   - The failure of `FSA029-Sample-Full.xml` during schema validation is due to the presence of an unexpected element: <PartnershipsSoleTraders>. The error message indicates that this element is not expected at line 102 in the XML file.
-
-  The issue arises because the XML file contains an element that does not conform to the structure or constraints defined in the schemas. In this case, it seems that the <PartnershipsSoleTraders> element in the `FSA029-Sample-Full.xml` does not conform to the structure of the schema's.
+    The issue arises because the XML file contains an element that does not conform to the structure or constraints defined in the schemas. In this case, it seems that the <PartnershipsSoleTraders> element in the `FSA029-Sample-Full.xml` does not conform to the structure of the schema's.
+    The regulator likely includes a valid file in their examples to serve as a reference for developers and users, showing the expected format and structure that the XML data should adhere to.
 
 - **(b) How would you fix the file to pass the schema validation?**
 
