@@ -25,8 +25,9 @@ To install the required dependencies, use the following command:
    - cd Folder1\Folder2\Projects\project_root
 
 3. Create and activate a virtual environment:
-   python -m venv .venv
-   .\.venv\Scripts\activate # On Windows
+
+   - python -m venv .venv
+   - .\.venv\Scripts\activate # On Windows
 
 4. Install the dependencies:
    pip install -r requirements.txt
